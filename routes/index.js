@@ -27,7 +27,7 @@ exports.index = function (req, res, next) {
       if (err) return next(err);
 
       res.render('index', {
-        title: 'Goof TODO',
+        title: 'Awesome TODO App',
         subhead: 'Vulnerabilities at their best',
         todos: todos,
       });
