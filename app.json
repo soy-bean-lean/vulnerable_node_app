@@ -1,18 +1,7 @@
 {
   "name": "goof",
-  "description": "A Snyk vulnerable Goof app on Heroku",
-  "repository": "https://github.com/snyk/goof",
-  "logo": "https://snyk.io/wp-content/uploads/title-card-avatar.png",
-  "keywords": [
-    "snyk",
-    "goof",
-    "heroku",
-    "node",
-    "security",
-    "vulnerabilities"
-  ],
-  "image": "heroku/nodejs",
-  "scripts": {},
+  "scripts": {
+  },
   "env": {
     "MONGOLAB_URI": {
       "required": true
