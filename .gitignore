@@ -10,3 +10,4 @@ npm-debug.log
 .dccache
 .dcignore
 .idea/
+/mongdo/
