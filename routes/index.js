@@ -37,8 +37,8 @@ exports.index = function (req, res, next) {
 exports.admin = function (req, res, next) {
   console.log(req.body);
 
-  var username =  escape(req.body.username);
-  var password =  escape(req.body.password);
+  var username =  req.body.username;
+  var password =  req.body.password;
 
   User.find({ username: username, password: password  }, function (err, users) {
     if (users.length > 0) {
