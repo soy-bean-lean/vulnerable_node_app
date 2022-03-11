@@ -47,7 +47,7 @@ exports.admin = function (req, res, next) {
         granted: true,
       });
     }
-    if (username != null || username.length >0  ) {
+    if (username != null && username != ""  ) {
       return res.render('admin', {
         title: 'Admin Access Denied',
         granted: false,
