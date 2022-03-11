@@ -46,7 +46,14 @@ exports.admin = function (req, res, next) {
         title: 'Admin Access Granted',
         granted: true,
       });
-    } else {
+    }
+    if (username != null || username.length >0  ) {
+      return res.render('admin', {
+        title: 'Admin Access Denied',
+        granted: false,
+      });
+    }
+    else {
       return res.render('admin', {
         title: 'Admin Access',
         granted: false,
