@@ -17,6 +17,7 @@ var fs = require('fs');
 
 // prototype-pollution
 var _ = require('lodash');
+const {urlencoded} = require("express");
 
 exports.index = function (req, res, next) {
   Todo.
@@ -37,8 +38,8 @@ exports.index = function (req, res, next) {
 exports.admin = function (req, res, next) {
   console.log(req.body);
 
-  var username =  req.body.username;
-  var password =  req.body.password;
+  var username =  encodeURIComponent(req.body.username);
+  var password =  encodeURIComponent(req.body.password);
 
   User.find({ username: username, password: password  }, function (err, users) {
     if (users.length > 0) {
