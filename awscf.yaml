@@ -689,7 +689,7 @@ Resources:
     DeletionPolicy: Delete
     Properties:
       BucketName: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-data"
-      AccessControl: PublicReadWrite
+      AccessControl: private
       Tags:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-data"
