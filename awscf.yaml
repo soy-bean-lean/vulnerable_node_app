@@ -50,7 +50,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -90,7 +90,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -130,7 +130,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -157,7 +157,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -188,7 +188,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -223,7 +223,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
   WebIGW:
@@ -239,7 +239,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -275,7 +275,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
   WebDefaultPublicRoute:
     Type: AWS::EC2::Route
     DependsOn:
@@ -312,7 +312,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -339,7 +339,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -359,7 +359,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -392,7 +392,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -451,7 +451,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
   LogsKeyAlias:
@@ -496,7 +496,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -528,7 +528,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -561,7 +561,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
   DefaultSubnetGroup:
@@ -578,7 +578,7 @@ Resources:
         - Key: Environment
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -614,7 +614,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -653,7 +653,7 @@ Resources:
         - Key: Environment
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -702,7 +702,7 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-dbapp"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -868,7 +868,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -901,7 +901,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -925,7 +925,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -951,7 +951,7 @@ Resources:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-financials"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -983,7 +983,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -1012,7 +1012,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -1049,7 +1049,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: 42153ba22c28f5c0bff388b24a6344137a5dfe26
         - Key: git_modifiers
@@ -1095,7 +1095,7 @@ Resources:
         - Key: Environment
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}"
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
         - Key: git_commit
           Value: b1681f3806db6656faf4107ceceb77e9364e59b7
         - Key: git_modifiers
@@ -1263,7 +1263,7 @@ Resources:
         - Key: git_repo
           Value: cfngoat
         - Key: git_file
-          Value: cfngoat.yaml
+          Value: awscf.yaml
   CleanFlowBucketOnDelete:
     Type: Custom::cleanupflowbucket
     Properties:
