@@ -19,6 +19,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var logger = require('morgan');
+var csrf = require('csurf');
 var errorHandler = require('errorhandler');
 var optional = require('optional');
 var marked = require('marked');
@@ -28,6 +29,7 @@ var dustHelpers = require('dustjs-helpers');
 var cons = require('consolidate');
 
 var app = express();
+app.use(csrf());
 var routes = require('./routes');
 
 // all environments
