@@ -6,13 +6,13 @@ jobs:
     env:
        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
     steps:
-      - uses: actions/checkout@master
-      - name: Run Snyk to check for vulnerabilities
-        uses: snyk/actions/node@master
-        continue-on-error: true
-        with:
-          args: --severity-threshold=high
-      - name: Run Snyk monitor to send to UI
-        uses: snyk/actions/node@master
-        with:
-          command: monitor
+       - uses: actions/checkout@master
+       - name: Run Snyk to check for vulnerabilities
+         uses: snyk/actions/node@master
+         continue-on-error: true
+         with:
+           args: --severity-threshold=high
+       - name: Run Snyk monitor to send to UI
+         uses: snyk/actions/node@master
+         with:
+           command: monitor
