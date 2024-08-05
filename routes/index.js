@@ -144,7 +144,6 @@ exports.edit = function(req, res, next) {
     sort('-updated_at').
     exec(function (err, todos) {
       if (err) return next(err);
-
       res.render('edit', {
         title   : 'TODO',
         todos   : todos,
