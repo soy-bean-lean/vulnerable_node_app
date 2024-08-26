@@ -1,9 +1,0 @@
-name: Example workflow using Snyk
-on: push
-jobs:
-  security:
-    runs-on: ubuntu-latest
-    env:
-       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-    steps:
-       - run: exit 0
